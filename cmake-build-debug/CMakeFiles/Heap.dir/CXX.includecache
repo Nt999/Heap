@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/Heap/heap.cpp
+iostream
+-
+heap.h
+D:/Projects/Heap/heap.h
+cstring
+-
+
+D:/Projects/Heap/heap.h
+
+D:/Projects/Heap/main.cpp
+iostream
+-
+heap.cpp
+D:/Projects/Heap/heap.cpp
+
